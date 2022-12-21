@@ -25,6 +25,6 @@ The **ratings** dataset contains the following attributes:
 ## **Exploring the dataset**
 The distribution of ratings is showed:
 
-<img align="right" width="350" src="img/Distribution Rating.jpg">
+<img align="center" width="350" src="img/Distribution Rating.jpg">
 
 As per Histogram, **Rating '4'** has **highest count** of ratings (>28000).Rating '3' being second with 20000 + and Rating '5' being third in count of ratings with a little over 15000. The ratings are biased towards 4,3 & 5 more than 1,2.
