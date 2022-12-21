@@ -29,7 +29,7 @@ The distribution of ratings is showed:
 
 As per Histogram, **Rating '4'** has **highest count** of ratings (>28000).Rating '3' being second with 20000 + and Rating '5' being third in count of ratings with a little over 15000. The ratings are biased towards 4,3 & 5 more than 1,2.
 
-**Write your Answer here:**
+**SUMMARY**
 - User-based and Item-based Collaborative Models have nearly same. User based RMSE values (0.9925) while the "Item based" model's RMSE is 1.003. Clearly, tuned Collaborative Filtering Models gives similar baseline model and the user-user based tuned model is performing better and have  rmse of 0.9808
  
 - The Collaborative Models use the user-item-ratings data to find similarities and make predictions rather than just predicting a random rating based on the distribution of the data. 
@@ -48,4 +48,4 @@ In this case study, we saw three different ways of building recommendation syste
 - similarity-based collaborative filtering
 - model-based (matrix factorization) collaborative filtering
 
-I also understood advantages/disadvantages of these recommendation systems and when to use which kind of recommendation systems. Once we build these recommendation systems, we can use **A/B Testing** to measure the effectiveness of these systems.
+I also understood advantages/disadvantages of these recommendation systems and when to use which kind of recommendation systems. 
