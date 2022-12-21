@@ -29,6 +29,13 @@ The distribution of ratings is showed:
 
 As per Histogram, **Rating '4'** has **highest count** of ratings (>28000).Rating '3' being second with 20000 + and Rating '5' being third in count of ratings with a little over 15000. The ratings are biased towards 4,3 & 5 more than 1,2.
 
+Here we are comparing the predicted ratings by similarity based recommendation system against actual ratings
+<img align="center" width="650" src="img/Distribution Rating.jpg">
+
+The distribution of predicted ratings is closely following the distribution of actual ratings. The total bins for predicted ratings are nearly same as to the total bins for actual ratings. The predictions looks good as compared to the distribution of actual ratings.
+
+Below we are comparing the predicted ratings by matrix factorization based recommendation system against actual ratings
+
 **SUMMARY**
 - User-based and Item-based Collaborative Models have nearly same. User based RMSE values (0.9925) while the "Item based" model's RMSE is 1.003. Clearly, tuned Collaborative Filtering Models gives similar baseline model and the user-user based tuned model is performing better and have  rmse of 0.9808
  
